@@ -1,0 +1,166 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    /* The image used */
+    background-image: url("../img/bg1.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  /* devide the width of the page in two: 70% of the page and 30% of the page  */
+  .info {
+    position: relative;
+    float: left ;
+    width: 70%;
+    height: 100%;
+}
+
+.info-box {
+    /* center the inner boc horrizentally and vertically */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* set background color and the opacity */
+    background-color: white;
+    opacity: 0.75;
+    /* Set the dimention */
+    min-width: 50%;
+    border-radius: 10px;
+}
+
+
+/* devide the width of the page in two: 70% of the page and 30% of the page  */
+.search {
+    position: relative;
+    float: right ;
+    width: 30%;
+    height: 100%;
+}
+
+.search-box {
+    /* center the inner boc horrizentally and vertically */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* set background color and the opacity */
+    background-color: white ;
+    opacity: 0.75;
+    width: 60%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+/* the username box */
+.input-name {
+    padding: 10px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    /* center the box  */
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.submit-btn {
+    width: 40%;
+    background-color: rgb(41, 112, 41);
+    border: rgb(41, 112, 41);
+    /* shape the border  */
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* to display each element dicrectly after that  */
+    display: block
+}
+
+.submit-btn:hover {
+    /* change the appearance of the cursor while the mouse is on the button  */
+    cursor: pointer;
+}
+
+.profile-photo {
+    /* move the element to the left  */
+    float: left;
+    width: 20%;
+    height: 35%;
+    border-radius: 50%;
+    /* border: solid grey; */
+    margin: 4% 4% 2% 4%;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile {
+    float: right;
+    width: 60%;
+    margin: 2% 4% 2% 4%;
+}
+
+.username {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.blog {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: blue;
+}
+.location {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: green;
+}
+.language {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: orange;
+}
+
+.profile-bio {
+    display: block;
+}
+
+.bio {
+    padding-left: 4%;
+}
+
+.not-found {
+    color: red;
+    /* make the font bold  */
+    font-weight: bold;
+    margin-top: -5%;
+    margin-left: 3%;
+    /* to show the element above other elements under it  */
+    z-index: 1;
+}
+
+.disconnected {
+    color: red;
+    font-weight: bold;
+    margin-top: -5%;
+    margin-left: 3%;
+    z-index: 1;
+}

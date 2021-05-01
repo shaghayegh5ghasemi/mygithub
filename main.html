@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> MY GITHUB </title>
+        <meta name="author" content="Shaghayegh">
+        <meta charset="UTF-8">
+        <link href="./css/main.css" rel="stylesheet" type="text/css" />
+        <link href="./img/octocat-symbol-logo-variant.png" rel="shortcut icon" type="image/x-icon"/>
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <!-- background image of the main page -->
+        <div class="bg"></div>
+        <!-- a box to show user's information -->
+        <div class="info">
+            <div class="info-box">
+                <div style="display: inline-block;">
+                    <div class="profile-photo">
+                        <img src="./img/bg3.png" class="photo" />
+                    </div>
+                    <div class="profile">
+                        <h3 class="username">Username</h3>
+                        <p class="blog">Blog</p>
+                        <p class="location"> City, Country</p>
+                        <p class="language"> Porgramming Language </p>
+                    </div>
+                </div>
+                <div class="profile-bio">
+                    <p class="bio"> Here is your bio! </p>
+                </div>
+            </div>
+        </div>
+        <!-- a box for searching a user -->
+        <div class="search">
+            <div class="search-box">
+                <input type="text" name="username" placeholder="Enter the Username" class="input-name"/>
+                <input type="submit" value="show" class="submit-btn" onclick="showprofile()"/>
+            </div>
+        </div>
+    </body>
+</html>
